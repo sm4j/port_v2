@@ -2,15 +2,31 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/globals.css';
+import type { Metadata } from 'next';
 
-const Layout = ({ children }) => {
+export const metadata: Metadata = {
+    title: 'Jordan Doe - Computer Science Portfolio',
+    description: 'Computer Science graduate specializing in AI and Cybersecurity. Explore my projects and technical expertise.',
+    keywords: 'Computer Science, AI, Cybersecurity, Portfolio, Machine Learning, Security, Web Development',
+    authors: [{ name: 'Jordan Doe' }],
+};
+
+interface LayoutProps {
+    children: React.ReactNode;
+}
+
+const RootLayout: React.FC<LayoutProps> = ({ children }) => {
     return (
-        <div>
-            <Header />
-            <main>{children}</main>
-            <Footer />
-        </div>
+        <html lang="en">
+            <body>
+                <div className="min-h-screen flex flex-col">
+                    <Header />
+                    <main className="flex-grow pt-20">{children}</main>
+                    <Footer />
+                </div>
+            </body>
+        </html>
     );
 };
 
-export default Layout;
+export default RootLayout;
