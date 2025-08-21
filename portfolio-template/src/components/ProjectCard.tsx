@@ -13,7 +13,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, link, tec
     return (
         <div className="card group hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
             {/* Project Image/Icon */}
-            <div className="relative overflow-hidden rounded-t-xl bg-gradient-to-br from-purple-500 to-blue-500 h-48 flex items-center justify-center">
+            <div className="relative overflow-hidden rounded-t-xl bg-gradient-to-br from-green-500 to-blue-500 h-48 flex items-center justify-center">
                 {image ? (
                     <img src={image} alt={title} className="w-full h-full object-cover" />
                 ) : (
@@ -28,8 +28,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, link, tec
                 {/* Category Badge */}
                 <div className="mb-3">
                     <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold ${
-                        category === 'AI' ? 'bg-purple-100 text-purple-700' :
-                        category === 'Security' ? 'bg-green-100 text-green-700' :
+                        category === 'AI' ? 'bg-green-100 text-green-700' :
+                        category === 'Security' ? 'bg-emerald-100 text-emerald-700' :
                         category === 'Web' ? 'bg-blue-100 text-blue-700' :
                         'bg-gray-100 text-gray-700'
                     }`}>
@@ -38,7 +38,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, link, tec
                 </div>
 
                 {/* Title */}
-                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-purple-600 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-green-600 transition-colors duration-300">
                     {title}
                 </h3>
 
@@ -65,7 +65,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, link, tec
                 <div className="flex items-center justify-between">
                     <a 
                         href={link} 
-                        className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-lg hover:from-purple-600 hover:to-blue-600 transition-all duration-300 font-medium text-sm"
+                        className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-lg hover:from-green-600 hover:to-blue-600 transition-all duration-300 font-medium text-sm"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

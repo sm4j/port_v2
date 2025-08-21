@@ -38,10 +38,10 @@ module.exports = {
         },
         glow: {
           '0%, 100%': {
-            boxShadow: '0 0 20px rgba(139, 92, 246, 0.3)',
+            boxShadow: '0 0 20px rgba(16, 185, 129, 0.3)',
           },
           '50%': {
-            boxShadow: '0 0 30px rgba(139, 92, 246, 0.6)',
+            boxShadow: '0 0 30px rgba(16, 185, 129, 0.6)',
           },
         },
       },

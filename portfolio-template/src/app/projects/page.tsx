@@ -78,7 +78,7 @@ const ProjectsPage = () => {
         : projects.filter(project => project.category === selectedCategory);
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
+        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
             <div className="max-w-7xl mx-auto px-4 py-20">
                 {/* Hero Section */}
                 <div className="text-center mb-16">
@@ -88,7 +88,7 @@ const ProjectsPage = () => {
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
                         A showcase of innovative projects spanning AI, cybersecurity, and web development
                     </p>
-                    <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto"></div>
+                    <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-500 mx-auto"></div>
                 </div>
 
                 {/* Filter Buttons */}
@@ -100,8 +100,8 @@ const ProjectsPage = () => {
                                 onClick={() => setSelectedCategory(category)}
                                 className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
                                     selectedCategory === category
-                                        ? 'bg-gradient-to-r from-purple-500 to-blue-500 text-white shadow-lg'
-                                        : 'text-gray-600 hover:text-purple-600'
+                                        ? 'bg-gradient-to-r from-green-500 to-blue-500 text-white shadow-lg'
+                                        : 'text-gray-600 hover:text-green-600'
                                 }`}
                             >
                                 {category}
@@ -134,7 +134,7 @@ const ProjectsPage = () => {
                     <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Project Statistics</h2>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                         <div className="text-center">
-                            <div className="text-4xl font-bold text-purple-600 mb-2">15+</div>
+                            <div className="text-4xl font-bold text-green-600 mb-2">15+</div>
                             <div className="text-gray-600">Total Projects</div>
                         </div>
                         <div className="text-center">
@@ -142,7 +142,7 @@ const ProjectsPage = () => {
                             <div className="text-gray-600">AI Projects</div>
                         </div>
                         <div className="text-center">
-                            <div className="text-4xl font-bold text-green-600 mb-2">4</div>
+                            <div className="text-4xl font-bold text-emerald-600 mb-2">4</div>
                             <div className="text-gray-600">Security Projects</div>
                         </div>
                         <div className="text-center">

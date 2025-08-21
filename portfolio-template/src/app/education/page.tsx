@@ -2,7 +2,7 @@ import React from 'react';
 
 const EducationPage = () => {
     return (
-        <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50">
+        <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
             <div className="max-w-6xl mx-auto px-4 py-20">
                 {/* Hero Section */}
                 <div className="text-center mb-16">
@@ -12,22 +12,22 @@ const EducationPage = () => {
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                         Academic journey in Computer Science with specialized focus on AI and Cybersecurity
                     </p>
-                    <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mt-6"></div>
+                    <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-500 mx-auto mt-6"></div>
                 </div>
 
                 {/* Main Degree */}
                 <div className="card p-8 mb-12 relative overflow-hidden">
-                    <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-purple-400 to-blue-400 opacity-10 transform rotate-45 translate-x-16 -translate-y-16"></div>
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-green-400 to-blue-400 opacity-10 transform rotate-45 translate-x-16 -translate-y-16"></div>
                     <div className="relative z-10">
                         <div className="flex items-start justify-between flex-col lg:flex-row gap-6">
                             <div className="flex-1">
                                 <div className="flex items-center mb-4">
-                                    <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-500 rounded-full flex items-center justify-center text-white text-2xl font-bold mr-4">
+                                    <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-blue-500 rounded-full flex items-center justify-center text-white text-2xl font-bold mr-4">
                                         🎓
                                     </div>
                                     <div>
                                         <h2 className="text-3xl font-bold text-gray-800">Bachelor of Science</h2>
-                                        <p className="text-xl text-purple-600 font-semibold">Computer Science</p>
+                                        <p className="text-xl text-green-600 font-semibold">Computer Science</p>
                                     </div>
                                 </div>
                                 <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -51,7 +51,7 @@ const EducationPage = () => {
                 <div className="grid md:grid-cols-2 gap-8 mb-12">
                     <div className="card-gradient p-8">
                         <div className="flex items-center mb-4">
-                            <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white text-xl mr-4">
+                            <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full flex items-center justify-center text-white text-xl mr-4">
                                 🤖
                             </div>
                             <h3 className="text-2xl font-bold text-gray-800">Artificial Intelligence Minor</h3>
@@ -73,7 +73,7 @@ const EducationPage = () => {
 
                     <div className="card-gradient p-8">
                         <div className="flex items-center mb-4">
-                            <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-500 rounded-full flex items-center justify-center text-white text-xl mr-4">
+                            <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-blue-500 rounded-full flex items-center justify-center text-white text-xl mr-4">
                                 🔒
                             </div>
                             <h3 className="text-2xl font-bold text-gray-800">Cybersecurity Minor</h3>
@@ -99,7 +99,7 @@ const EducationPage = () => {
                     <h3 className="text-3xl font-bold text-gray-800 mb-6">Core Computer Science Curriculum</h3>
                     <div className="grid md:grid-cols-3 gap-6">
                         <div>
-                            <h4 className="text-lg font-semibold text-purple-600 mb-3">Programming & Software Engineering</h4>
+                            <h4 className="text-lg font-semibold text-green-600 mb-3">Programming & Software Engineering</h4>
                             <ul className="text-gray-600 space-y-1">
                                 <li>• Data Structures & Algorithms</li>
                                 <li>• Object-Oriented Programming</li>
@@ -137,7 +137,7 @@ const EducationPage = () => {
                         <h3 className="text-2xl font-bold text-gray-800 mb-4">🏆 Awards & Recognition</h3>
                         <ul className="space-y-3">
                             <li className="flex items-center">
-                                <div className="w-2 h-2 bg-purple-500 rounded-full mr-3"></div>
+                                <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
                                 <span className="text-gray-600">Outstanding Computer Science Student (2024)</span>
                             </li>
                             <li className="flex items-center">
@@ -145,7 +145,7 @@ const EducationPage = () => {
                                 <span className="text-gray-600">AI Research Excellence Award (2023)</span>
                             </li>
                             <li className="flex items-center">
-                                <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                                <div className="w-2 h-2 bg-emerald-500 rounded-full mr-3"></div>
                                 <span className="text-gray-600">Cybersecurity Challenge Winner (2023)</span>
                             </li>
                             <li className="flex items-center">
@@ -167,11 +167,11 @@ const EducationPage = () => {
                                 <span className="text-gray-600">CompTIA Security+ (In Progress)</span>
                             </li>
                             <li className="flex items-center">
-                                <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                                <div className="w-2 h-2 bg-emerald-500 rounded-full mr-3"></div>
                                 <span className="text-gray-600">Python Institute PCEP Certification</span>
                             </li>
                             <li className="flex items-center">
-                                <div className="w-2 h-2 bg-purple-500 rounded-full mr-3"></div>
+                                <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
                                 <span className="text-gray-600">Google AI/ML Certificate</span>
                             </li>
                         </ul>
