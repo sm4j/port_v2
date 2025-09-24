@@ -44,16 +44,18 @@ const AboutPage = () => {
                         <div className="card p-8">
                             <h2 className="text-3xl font-bold text-gray-800 mb-4">My Journey</h2>
                             <p className="text-gray-600 text-lg leading-relaxed mb-4">
-                                I am a recent graduate with a Bachelor of Science in Computer Science, 
-                                complemented by dual minors in Artificial Intelligence and Cybersecurity. 
-                                My passion lies in leveraging technology to solve complex problems and 
-                                create innovative solutions that make a meaningful impact.
+                                Throughout my academic and professional journey, I’ve cultivated both technical 
+                                and interpersonal strengths. From coding projects and cybersecurity challenges to 
+                                AI-driven research, I’ve gained hands-on experience applying theory to real-world 
+                                problems. At the same time, my background in sales and my ability to communicate 
+                                effectively have given me a unique edge: I can translate complex technical concepts 
+                                into clear, compelling narratives that resonate with stakeholders, teammates, and 
+                                clients alike.
                             </p>
                             <p className="text-gray-600 text-lg leading-relaxed">
-                                Throughout my academic journey, I've developed a strong foundation in 
-                                programming, algorithms, and system design, while gaining hands-on 
-                                experience through various projects and internships where I applied my 
-                                skills in real-world scenarios.
+                                This combination of skills has shaped me into a versatile professional—equally 
+                                comfortable designing system architectures, pitching ideas persuasively, or 
+                                collaborating across diverse teams to bring a shared vision to life.
                             </p>
                         </div>
 
@@ -62,40 +64,58 @@ const AboutPage = () => {
                             <h2 className="text-3xl font-bold text-gray-800 mb-6">Technical Expertise</h2>
                             <div className="grid md:grid-cols-2 gap-6">
                                 <div>
-                                    <h3 className="text-xl font-semibold text-green-600 mb-3">Programming Languages</h3>
+                                    <h3 className="text-xl font-semibold text-green-600 mb-3">Languages & Frameowkrs</h3>
                                     <div className="flex flex-wrap gap-2">
                                         <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Python</span>
                                         <span className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">JavaScript</span>
                                         <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">Java</span>
                                         <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">C++</span>
                                         <span className="px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full text-sm">SQL</span>
+                                        <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">HTML/CSS</span>
+                                        <span className="px-3 py-1 bg-pink-100 text-pink-700 rounded-full text-sm">C</span>
+                                        <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">PHP</span>
+                                        <span className="px-3 py-1 bg-orange-100 text-gray-700 rounded-full text-sm">SwiftUI</span>
+                                        <span className="px-3 py-1 bg-green-100 text-gray-700 rounded-full text-sm">VHDL</span>
+                                        <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">React</span>
+                                        <span className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">Next.js</span>
                                     </div>
                                 </div>
                                 <div>
-                                    <h3 className="text-xl font-semibold text-gray-800 mb-3">AI & ML Technologies</h3>
+                                    <h3 className="text-xl font-semibold text-gray-800 mb-3">Libraries & AI/ML Tools</h3>
                                     <div className="flex flex-wrap gap-2">
                                         <span className="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-sm">TensorFlow</span>
                                         <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">PyTorch</span>
                                         <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Scikit-learn</span>
                                         <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">Pandas</span>
+                                        <span className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">NumPy</span>
+                                        <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">Matplotlib</span>
+                                        <span className="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-sm">ParseAPI</span>
+                                        <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">SageMath</span>
                                     </div>
                                 </div>
                                 <div>
-                                    <h3 className="text-xl font-semibold text-gray-800 mb-3">Web Technologies</h3>
+                                    <h3 className="text-xl font-semibold text-gray-800 mb-3">Technologies</h3>
                                     <div className="flex flex-wrap gap-2">
-                                        <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">React</span>
-                                        <span className="px-3 py-1 bg-black text-white rounded-full text-sm">Next.js</span>
-                                        <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">Node.js</span>
-                                        <span className="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-sm">Tailwind CSS</span>
+                                        <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Git</span>
+                                        <span className="px-3 py-1 bg-black text-white rounded-full text-sm">AWS</span>
+                                        <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">Xcode</span>
+                                        <span className="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-sm">Altera Quartus</span>
+                                        <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">MS Office</span>
+                                        <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">Visual Studio</span>
+                                        <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Firebase</span>
+                                        <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Vivado</span>
+                                        <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">Jupyter</span>
+                                        <span className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">Back4app</span>
                                     </div>
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-semibold text-gray-800 mb-3">Security Tools</h3>
                                     <div className="flex flex-wrap gap-2">
                                         <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">Wireshark</span>
-                                        <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">Nmap</span>
+                                        <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">Burp Suite</span>
                                         <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">Metasploit</span>
-                                        <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">OpenSSL</span>
+                                        <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">Splunk</span>
+                                        <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">Cain and Abel</span>
                                     </div>
                                 </div>
                             </div>
@@ -105,14 +125,19 @@ const AboutPage = () => {
                         <div className="card p-8">
                             <h2 className="text-3xl font-bold text-gray-800 mb-4">Interests & Goals</h2>
                             <p className="text-gray-600 text-lg leading-relaxed mb-4">
-                                I am particularly passionate about the intersection of AI and cybersecurity, 
-                                exploring how machine learning can enhance security protocols and threat detection systems. 
-                                My goal is to develop innovative solutions that leverage AI to create more robust and 
-                                intelligent security frameworks.
+                               I’m deeply fascinated by the intersection of AI and cybersecurity—two fields 
+                               that are rapidly reshaping how we live and work. My goal is to contribute to 
+                               innovative solutions that not only push technological boundaries but also 
+                               address critical global challenges such as data privacy, digital trust, and 
+                               secure AI adoption.
                             </p>
                             <p className="text-gray-600 text-lg leading-relaxed">
-                                I'm eager to contribute to projects that push the boundaries of technology while 
-                                maintaining the highest standards of security and ethical considerations in AI development.
+                                Looking ahead, I aspire to pursue opportunities where I can continue building 
+                                on my technical foundation while also leveraging my communication and leadership 
+                                skills. Whether it’s guiding clients through transformative tech solutions, 
+                                driving cross-disciplinary innovation, or leading teams to tackle high-stakes 
+                                challenges, I aim to grow into a role that fuses technical problem-solving with 
+                                human connection and impact.
                             </p>
                         </div>
                     </div>
