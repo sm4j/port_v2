@@ -32,12 +32,12 @@ const EducationPage = () => {
                                 </div>
                                 <div className="grid md:grid-cols-2 gap-4 mb-6">
                                     <div>
-                                        <p className="text-gray-600"><strong>University:</strong> State University</p>
-                                        <p className="text-gray-600"><strong>Graduation:</strong> May 2024</p>
-                                        <p className="text-gray-600"><strong>GPA:</strong> 4.0/4.0</p>
+                                        <p className="text-gray-600"><strong>University:</strong> Florida Atlantic University</p>
+                                        <p className="text-gray-600"><strong>Graduation:</strong> December 2025</p>
+                                        <p className="text-gray-600"><strong>GPA:</strong> 3.97/4.0</p>
                                     </div>
                                     <div>
-                                        <p className="text-gray-600"><strong>Magna Cum Laude</strong></p>
+                                        <p className="text-gray-600"><strong>Summa Cum Laude</strong></p>
                                         <p className="text-gray-600"><strong>Dean's List:</strong> All Semesters</p>
                                         <p className="text-gray-600"><strong>Honor Society:</strong> Phi Beta Kappa</p>
                                     </div>

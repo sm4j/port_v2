@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
                 </div>
                 
                 <p className="text-lg md:text-xl text-blue-200 max-w-2xl mx-auto leading-relaxed mb-8">
-                    Passionate about leveraging cutting-edge technology to solve complex problems and create innovative solutions at the intersection of AI and cybersecurity.
+                    Driving innovation at the intersection of AI and cybersecurity—blending technical insight with sales expertise and exceptional communication to bridge the gap between technology and people.
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">

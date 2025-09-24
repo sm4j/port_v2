@@ -56,7 +56,7 @@ const ContactPage = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-gray-800">Email</h3>
-                                    <p className="text-gray-600">jordan.doe@email.com</p>
+                                    <p className="text-gray-600">sm4j@icloud.com</p>
                                 </div>
                             </div>
 
@@ -68,7 +68,7 @@ const ContactPage = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-gray-800">LinkedIn</h3>
-                                    <p className="text-gray-600">linkedin.com/in/jordan-doe</p>
+                                    <p className="text-gray-600">linkedin.com/in/sm4j</p>
                                 </div>
                             </div>
 
@@ -80,7 +80,7 @@ const ContactPage = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-gray-800">GitHub</h3>
-                                    <p className="text-gray-600">github.com/jordan-doe</p>
+                                    <p className="text-gray-600">github.com/sm4j</p>
                                 </div>
                             </div>
 

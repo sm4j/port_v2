@@ -5,10 +5,10 @@ import '../styles/globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Jordan Doe - Computer Science Portfolio',
+    title: 'Jordan Small - Computer Science Portfolio',
     description: 'Computer Science graduate specializing in AI and Cybersecurity. Explore my projects and technical expertise.',
     keywords: 'Computer Science, AI, Cybersecurity, Portfolio, Machine Learning, Security, Web Development',
-    authors: [{ name: 'Jordan Doe' }],
+    authors: [{ name: 'Jordan Small' }],
 };
 
 interface LayoutProps {
