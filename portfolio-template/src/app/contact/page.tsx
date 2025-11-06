@@ -20,11 +20,23 @@ const ContactPage = () => {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        // Handle form submission here
-        console.log('Form submitted:', formData);
-        // Reset form
-        setFormData({ name: '', email: '', subject: '', message: '' });
-        alert('Thank you for your message! I\'ll get back to you soon.');
+
+        // Build mailto URL to open user's email client
+        const to = 'sm4j@icloud.com';
+        const subject = formData.subject || 'Website Contact';
+        const bodyLines = [
+            `Name: ${formData.name || 'N/A'}`,
+            `Email: ${formData.email || 'N/A'}`,
+            '',
+            formData.message || ''
+        ];
+        const body = bodyLines.join('\n');
+
+        const mailto = `mailto:${encodeURIComponent(to)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        // Open the user's mail client with prefilled subject/body.
+        // Note: this navigates away from the page to the mail client handler.
+        window.location.href = mailto;
     };
 
     return (

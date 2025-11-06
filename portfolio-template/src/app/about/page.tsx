@@ -146,7 +146,7 @@ const AboutPage = () => {
                 {/* Stats Section */}
                 <div className="grid md:grid-cols-4 gap-6 text-center">
                     <div className="card p-6">
-                        <div className="text-3xl font-bold text-green-600 mb-2">4.0</div>
+                        <div className="text-3xl font-bold text-green-600 mb-2">3.97</div>
                         <div className="text-gray-600">GPA</div>
                     </div>
                     <div className="card p-6">
@@ -154,11 +154,11 @@ const AboutPage = () => {
                         <div className="text-gray-600">Projects Completed</div>
                     </div>
                     <div className="card p-6">
-                        <div className="text-3xl font-bold text-green-600 mb-2">3</div>
-                        <div className="text-gray-600">Internships</div>
+                        <div className="text-3xl font-bold text-green-600 mb-2">10+</div>
+                        <div className="text-gray-600">Years of Work Experience</div>
                     </div>
                     <div className="card p-6">
-                        <div className="text-3xl font-bold text-orange-600 mb-2">5+</div>
+                        <div className="text-3xl font-bold text-orange-600 mb-2">3+</div>
                         <div className="text-gray-600">Certifications</div>
                     </div>
                 </div>
