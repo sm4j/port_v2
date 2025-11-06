@@ -18,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, link, tec
                     <img src={image} alt={title} className="w-full h-full object-cover" />
                 ) : (
                     <div className="text-6xl text-white opacity-80">
-                        {category === 'AI' ? '🤖' : category === 'Security' ? '🔒' : category === 'Web' ? '🌐' : '💻'}
+                        {category === 'AI' ? '🤖' : category === 'Hardware' ? '🔧' : category === 'Security' ? '🔒' : category === 'Web' ? '🌐' : '💻'}
                     </div>
                 )}
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
@@ -31,6 +31,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, link, tec
                         category === 'AI' ? 'bg-green-100 text-green-700' :
                         category === 'Security' ? 'bg-emerald-100 text-emerald-700' :
                         category === 'Web' ? 'bg-blue-100 text-blue-700' :
+                        category === 'Hardware' ? 'bg-yellow-100 text-yellow-700' :
                         'bg-gray-100 text-gray-700'
                     }`}>
                         {category}
