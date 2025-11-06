@@ -44,18 +44,33 @@ const AboutPage = () => {
                         <div className="card p-8">
                             <h2 className="text-3xl font-bold text-gray-800 mb-4">My Journey</h2>
                             <p className="text-gray-600 text-lg leading-relaxed mb-4">
-                                Throughout my academic and professional journey, I’ve cultivated both technical 
-                                and interpersonal strengths. From coding projects and cybersecurity challenges to 
-                                AI-driven research, I’ve gained hands-on experience applying theory to real-world 
-                                problems. At the same time, my background in sales and my ability to communicate 
-                                effectively have given me a unique edge: I can translate complex technical concepts 
-                                into clear, compelling narratives that resonate with stakeholders, teammates, and 
-                                clients alike.
+                                My journey has been one of growth, adaptability, and resilience. 
+                                Like many, the global COVID-19 pandemic brought unexpected challenges 
+                                that reshaped my academic path, prompting me to take a brief academic 
+                                break to regain focus and realign my goals. That pause ultimately 
+                                strengthened my sense of purpose and reaffirmed my commitment to 
+                                excellence in both technology and communication.
                             </p>
                             <p className="text-gray-600 text-lg leading-relaxed">
-                                This combination of skills has shaped me into a versatile professional—equally 
-                                comfortable designing system architectures, pitching ideas persuasively, or 
-                                collaborating across diverse teams to bring a shared vision to life.
+                                Throughout my studies, I’ve always taken academia seriously. Completing 
+                                over five AP courses in high school, earning my first associate’s degree early, 
+                                and now completing my Bachelor of Science in Computer Science with dual minors in 
+                                Artificial Intelligence and Cybersecurity, graduating Summa Cum Laude. 
+                                My experiences extend beyond the classroom: I’ve worked for over a decade, 
+                                much of it in hospitality, where I honed exceptional interpersonal and 
+                                communication skills with a refined sales personality. Those years gave 
+                                me an intuitive understanding of people, an ability to connect, read situations, 
+                                and communicate with a level of empathy and confidence that’s second to none.
+                            </p>
+                            <p className="text-gray-600 text-lg leading-relaxed mt-4">
+                                My brief time in a corporate, remote environment also gave me a glimpse 
+                                into structured operations and professional collaboration. Together, these 
+                                experiences shaped a balanced perspective: one that combines technical expertise 
+                                with human understanding.
+                            </p>
+                            <p className="text-gray-600 text-lg leading-relaxed mt-4">
+                               Today, I stand ready to launch into my career, bringing forward not just technical 
+                               fluency, but a deeply people-centered approach that bridges innovation, collaboration, and impact.
                             </p>
                         </div>
 
@@ -125,19 +140,23 @@ const AboutPage = () => {
                         <div className="card p-8">
                             <h2 className="text-3xl font-bold text-gray-800 mb-4">Interests & Goals</h2>
                             <p className="text-gray-600 text-lg leading-relaxed mb-4">
-                               I’m deeply fascinated by the intersection of AI and cybersecurity—two fields 
-                               that are rapidly reshaping how we live and work. My goal is to contribute to 
-                               innovative solutions that not only push technological boundaries but also 
-                               address critical global challenges such as data privacy, digital trust, and 
-                               secure AI adoption.
+                              I’m deeply fascinated by the evolving relationship between Artificial Intelligence 
+                              and Cybersecurity, two disciplines that define our digital future. My goal is to 
+                              contribute to forward-thinking innovations that strengthen data security, ethical AI, 
+                              and digital trust.
                             </p>
                             <p className="text-gray-600 text-lg leading-relaxed">
-                                Looking ahead, I aspire to pursue opportunities where I can continue building 
-                                on my technical foundation while also leveraging my communication and leadership 
-                                skills. Whether it’s guiding clients through transformative tech solutions, 
-                                driving cross-disciplinary innovation, or leading teams to tackle high-stakes 
-                                challenges, I aim to grow into a role that fuses technical problem-solving with 
-                                human connection and impact.
+                                Beyond the technical, I aspire to bridge the gap between technology and human connection,
+                                 leveraging my unique blend of analytical rigor, creativity, and interpersonal intuition 
+                                 to make technology more relatable and impactful. Whether working with clients, leading a team, 
+                                 or architecting solutions, I aim to translate complexity into clarity and inspire confidence in 
+                                 the process.
+                            </p>
+                            <p className="text-gray-600 text-lg leading-relaxed mt-4">
+                                I’m open to opportunities that challenge me to grow across domains, from technical engineering 
+                                to strategic communication. Long-term, I see success not only in professional achievement but 
+                                also in personal fulfillment: becoming a family man, building meaningful relationships, and 
+                                contributing to a life defined by balance, purpose, and impact.
                             </p>
                         </div>
                     </div>
