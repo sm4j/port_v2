@@ -50,7 +50,7 @@ const projects = [
     {
         title: 'Dotme Portfolio Website',
         description: 'A personal portfolio website built with Next.js and Tailwind CSS to showcase projects, skills, and experience in computer science and software development.',
-        link: 'https://github.com/sm4j/dotme/',
+        link: 'https://legacy.sm4j.me',
         technologies: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS'],
         category: 'Web'
     },
@@ -102,12 +102,19 @@ const projects = [
         link: 'https://colab.research.google.com/drive/1SpVX4bQO35C0xNbkWMojxNEoweIZPB_y?authuser=1#scrollTo=mg0JZmKmP6RC',
         technologies: ['Python', 'TensorFlow', 'Keras', 'Matplotlib', 'CIFAR-10'],
         category: 'AI'
+    },
+    {
+        title: 'Marvel Dream Teams',
+        description: 'Completely integrated mobile iOS application that allows users to create and share their own Marvel superhero teams. Built using a SwiftUI frontend and a Firebase backend with Marvel API integration.',
+        link: 'https://github.com/sm4j/marvel-dream-teams',
+        technologies: ['SwiftUI', 'ParseSwift', 'Firebase'],
+        category: 'Mobile Apps'
     }
 ];
 
 const ProjectsPage = () => {
     const [selectedCategory, setSelectedCategory] = useState('All');
-    const categories = ['All', 'AI', 'Hardware', 'Security', 'Web'];
+    const categories = ['All', 'AI', 'Hardware', 'Mobile Apps', 'Security', 'Web'];
 
     const filteredProjects = selectedCategory === 'All' 
         ? projects 
@@ -122,7 +129,7 @@ const ProjectsPage = () => {
                         My <span className="text-gradient">Projects</span>
                     </h1>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-                        A showcase of innovative projects spanning AI, cybersecurity, and web development
+                        A showcase of innovative projects spanning AI, cybersecurity, hardware, mobile apps, and web development
                     </p>
                     <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-500 mx-auto"></div>
                 </div>
@@ -174,19 +181,23 @@ const ProjectsPage = () => {
                             <div className="text-gray-600">Total Projects</div>
                         </div>
                         <div className="text-center">
-                            <div className="text-4xl font-bold text-blue-600 mb-2">5</div>
+                            <div className="text-4xl font-bold text-blue-600 mb-2">4</div>
                             <div className="text-gray-600">AI Projects</div>
                         </div>
                          <div className="text-center">
-                            <div className="text-4xl font-bold text-blue-600 mb-2">5</div>
+                            <div className="text-4xl font-bold text-blue-600 mb-2">6</div>
                             <div className="text-gray-600">Hardware Projects</div>
                         </div>
+                         <div className="text-center">
+                            <div className="text-4xl font-bold text-blue-600 mb-2">5</div>
+                            <div className="text-gray-600">Mobile App Projects</div>
+                        </div>
                         <div className="text-center">
-                            <div className="text-4xl font-bold text-emerald-600 mb-2">4</div>
+                            <div className="text-4xl font-bold text-emerald-600 mb-2">5</div>
                             <div className="text-gray-600">Security Projects</div>
                         </div>
                         <div className="text-center">
-                            <div className="text-4xl font-bold text-orange-600 mb-2">6</div>
+                            <div className="text-4xl font-bold text-orange-600 mb-2">4</div>
                             <div className="text-gray-600">Web Projects</div>
                         </div>
                     </div>

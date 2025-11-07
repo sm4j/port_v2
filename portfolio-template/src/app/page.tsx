@@ -73,21 +73,14 @@ const HomePage = () => {
                                 image: '/cpu.png'
                             }
                         ].map((proj) => (
-                            <a
-                                key={proj.title}
-                                href={proj.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="group block p-6 rounded-xl border bg-white hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-green-200"
-                                aria-label={`View ${proj.title}`}
-                            >
+                            <div key={proj.title} className="p-6 rounded-xl border hover:shadow-lg transition-shadow duration-300 bg-white">
                                 <div className="flex items-start gap-4 mb-4">
                                     {proj.image && (
                                         <img src={proj.image} alt={`${proj.title} logo`} className="w-12 h-12 object-contain rounded-md" />
                                     )}
                                     <div>
-                                        <h3 className="text-xl font-semibold mb-1 text-gray-800 group-hover:text-green-600 transition-colors duration-200">{proj.title}</h3>
-                                        <p className="text-gray-600 text-sm line-clamp-4">{proj.description}</p>
+                                        <h3 className="text-xl font-semibold mb-1 text-gray-800">{proj.title}</h3>
+                                        <p className="text-gray-600 text-sm">{proj.description}</p>
                                     </div>
                                 </div>
                                 <div className="flex flex-wrap gap-2 mb-4">
@@ -96,14 +89,14 @@ const HomePage = () => {
                                     ))}
                                 </div>
                                 <div className="text-right">
-                                    <span className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-lg opacity-100 group-hover:opacity-100 transition-opacity duration-300 font-medium text-sm">
+                                    <a href={proj.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-lg hover:from-green-600 hover:to-blue-600 transition-all duration-300 font-medium text-sm">
                                         View Project
                                         <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                         </svg>
-                                    </span>
+                                    </a>
                                 </div>
-                            </a>
+                            </div>
                         ))}
                     </div>
                     
