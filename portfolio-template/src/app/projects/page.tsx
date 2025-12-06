@@ -6,37 +6,9 @@ import { title } from 'process';
 
 const projects = [
     {
-        title: 'Basic FPGA Comparator',
-        description: 'A simple FPGA-based comparator that compares two 2-bit binary numbers and indicates which one is larger using LED indicators. Implemented using VHDL on a Xilinx FPGA board.',
-        link: 'https://www.youtube.com/watch?v=uDv0A9BFhAY',
-        technologies: ['VHDL', 'Xilinx', 'FPGA', 'Vivado'],
-        category: 'Hardware'
-    },
-    {
-        title: 'FPGA Register Simulator',
-        description: 'A simple FPGA-based register simulator that demonstrates basic register operations using VHDL on a Xilinx FPGA board.',
-        link: 'https://youtu.be/HJ-9hry7vhg',
-        technologies: ['VHDL', 'Xilinx', 'FPGA', 'Vivado'],
-        category: 'Hardware'
-    },
-    {
         title: '4-Function FPGA ALU',
         description: 'An intermediate FPGA-based 4-function ALU that performs addition, subtraction, multiplication, and shifting on two 4-bit binary numbers. Implemented using VHDL on a Xilinx FPGA board.',
         link: 'https://youtu.be/HLBvO35nOAQ',
-        technologies: ['VHDL', 'Xilinx', 'FPGA', 'Vivado'],
-        category: 'Hardware'
-    },
-    {
-        title: 'FPGA Carry-Save Multiplier',
-        description: 'An intermediate FPGA-based carry-save multiplier that performs multiplication on two 8-bit binary numbers. Implemented using full adders in VHDL on a Xilinx FPGA board.',
-        link: 'https://youtu.be/6qfKWuf8bI0',
-        technologies: ['VHDL', 'Xilinx', 'FPGA', 'Vivado'],
-        category: 'Hardware'
-    },
-    {
-        title: 'FPGA State Machine "Vending Machine"',
-        description: 'An intermediate FPGA-based state machine that simulates a vending machine. Implemented using VHDL on a Xilinx FPGA board.',
-        link: 'https://www.youtube.com/watch?v=cbHEAksGDBs',
         technologies: ['VHDL', 'Xilinx', 'FPGA', 'Vivado'],
         category: 'Hardware'
     },
@@ -46,6 +18,20 @@ const projects = [
         link: 'https://github.com/sm4j/comp_arch',
         technologies: ['VHDL', 'Altera Quartus', 'FPGA', 'emu8086'],
         category: 'Hardware'
+    },
+    {
+        title: 'Basic FPGA Comparator',
+        description: 'A simple FPGA-based comparator that compares two 2-bit binary numbers and indicates which one is larger using LED indicators. Implemented using VHDL on a Xilinx FPGA board.',
+        link: 'https://www.youtube.com/watch?v=uDv0A9BFhAY',
+        technologies: ['VHDL', 'Xilinx', 'FPGA', 'Vivado'],
+        category: 'Hardware'
+    },
+    {
+        title: 'CIFAR-10 CNN Model Optimization with Data Augmentation and Batch Normalization',
+        description: 'A Python project that builds and optimizes a Convolutional Neural Network (CNN) model for the CIFAR-10 dataset. The project incorporates data augmentation and batch normalization techniques to improve model performance, with results visualized using Matplotlib.',
+        link: 'https://colab.research.google.com/drive/1SpVX4bQO35C0xNbkWMojxNEoweIZPB_y?authuser=1#scrollTo=mg0JZmKmP6RC',
+        technologies: ['Python', 'TensorFlow', 'Keras', 'Matplotlib', 'CIFAR-10'],
+        category: 'AI'
     },
     {
         title: 'Dotme Portfolio Website',
@@ -62,25 +48,32 @@ const projects = [
         category: 'Web'
     },
     {
-        title: 'Vanity Advocacy Website',
-        description: 'A responsive website for a vanity advocacy group, built using vanilla HTML, CSS, and JavaScript to promote awareness and engagement.',
-        link: 'https://youtu.be/BjvP5jgVGP4',
-        technologies: ['HTML', 'CSS', 'JavaScript'],
-        category: 'Web'
+        title: 'FPGA Carry-Save Multiplier',
+        description: 'An intermediate FPGA-based carry-save multiplier that performs multiplication on two 8-bit binary numbers. Implemented using full adders in VHDL on a Xilinx FPGA board.',
+        link: 'https://youtu.be/6qfKWuf8bI0',
+        technologies: ['VHDL', 'Xilinx', 'FPGA', 'Vivado'],
+        category: 'Hardware'
     },
     {
-        title: 'Sm4j.me Personal Website',
-        description: 'Low and behold, the site in front of you. Built to showcase excellence.',
-        link: 'https://sm4j.me',
-        technologies: ['Next.js', 'React', 'TailwindCSS'],
-        category: 'Web'
+        title: 'FPGA Register Simulator',
+        description: 'A simple FPGA-based register simulator that demonstrates basic register operations using VHDL on a Xilinx FPGA board.',
+        link: 'https://youtu.be/HJ-9hry7vhg',
+        technologies: ['VHDL', 'Xilinx', 'FPGA', 'Vivado'],
+        category: 'Hardware'
     },
     {
-        title: 'Threshold-Based Binary Classification and Accuracy Analysis',
-        description: 'A Python implementation of a threshold-based binary classification algorithm. The project includes accuracy analysis and visualization using Matplotlib.',
-        link: 'https://colab.research.google.com/drive/1S8hZ7jau7lmfY3-J_7CiMCz0o0k44LSq?authuser=1',
-        technologies: ['Python', 'NumPy', 'Matplotlib'],
-        category: 'AI'
+        title: 'FPGA State Machine "Vending Machine"',
+        description: 'An intermediate FPGA-based state machine that simulates a vending machine. Implemented using VHDL on a Xilinx FPGA board.',
+        link: 'https://www.youtube.com/watch?v=cbHEAksGDBs',
+        technologies: ['VHDL', 'Xilinx', 'FPGA', 'Vivado'],
+        category: 'Hardware'
+    },
+    {
+        title: 'Marvel Dream Teams',
+        description: 'Completely integrated mobile iOS application that allows users to create and share their own Marvel superhero teams. Built using a SwiftUI frontend and a Firebase backend with Marvel API integration.',
+        link: 'https://github.com/sm4j/marvel-dream-teams',
+        technologies: ['SwiftUI', 'ParseSwift', 'Firebase'],
+        category: 'Mobile Apps'
     },
     {
         title: 'MNIST Digit Classification Using Threshold-Based Feature Extraction and Accuracy Evaluation',
@@ -97,18 +90,25 @@ const projects = [
         category: 'AI'
     },
     {
-        title: 'CIFAR-10 CNN Model Optimization with Data Augmentation and Batch Normalization',
-        description: 'A Python project that builds and optimizes a Convolutional Neural Network (CNN) model for the CIFAR-10 dataset. The project incorporates data augmentation and batch normalization techniques to improve model performance, with results visualized using Matplotlib.',
-        link: 'https://colab.research.google.com/drive/1SpVX4bQO35C0xNbkWMojxNEoweIZPB_y?authuser=1#scrollTo=mg0JZmKmP6RC',
-        technologies: ['Python', 'TensorFlow', 'Keras', 'Matplotlib', 'CIFAR-10'],
+        title: 'Sm4j.me Personal Website',
+        description: 'Low and behold, the site in front of you. Built to showcase excellence.',
+        link: 'https://sm4j.me',
+        technologies: ['Next.js', 'React', 'TailwindCSS'],
+        category: 'Web'
+    },
+    {
+        title: 'Threshold-Based Binary Classification and Accuracy Analysis',
+        description: 'A Python implementation of a threshold-based binary classification algorithm. The project includes accuracy analysis and visualization using Matplotlib.',
+        link: 'https://colab.research.google.com/drive/1S8hZ7jau7lmfY3-J_7CiMCz0o0k44LSq?authuser=1',
+        technologies: ['Python', 'NumPy', 'Matplotlib'],
         category: 'AI'
     },
     {
-        title: 'Marvel Dream Teams',
-        description: 'Completely integrated mobile iOS application that allows users to create and share their own Marvel superhero teams. Built using a SwiftUI frontend and a Firebase backend with Marvel API integration.',
-        link: 'https://github.com/sm4j/marvel-dream-teams',
-        technologies: ['SwiftUI', 'ParseSwift', 'Firebase'],
-        category: 'Mobile Apps'
+        title: 'Vanity Advocacy Website',
+        description: 'A responsive website for a vanity advocacy group, built using vanilla HTML, CSS, and JavaScript to promote awareness and engagement.',
+        link: 'https://youtu.be/BjvP5jgVGP4',
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        category: 'Web'
     }
 ];
 
