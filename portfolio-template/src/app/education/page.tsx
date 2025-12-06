@@ -40,8 +40,8 @@ const EducationPage = () => {
                                     </div>
                                     <div>
                                         <p className="text-gray-600"><strong>Summa Cum Laude</strong></p>
-                                        <p className="text-gray-600"><strong>Dean's List:</strong> All Semesters</p>
-                                        <p className="text-gray-600"><strong>Honor Society:</strong> Phi Beta Kappa</p>
+                                        <p className="text-gray-600"><strong>President's List:</strong> 2024-2025</p>
+                                        <p className="text-gray-600"><strong>Dean's List:</strong> 2023</p>
                                     </div>
                                 </div>
                             </div>
