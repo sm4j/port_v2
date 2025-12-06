@@ -22,7 +22,7 @@ const AboutPage = () => {
                                 alt="Profile" 
                                 className="w-48 h-48 rounded-full mx-auto mb-6 border-4 border-green-200 shadow-xl hover:scale-105 transition-transform duration-300" 
                             />
-                            <h2 className="text-2xl font-bold text-gray-800 mb-2">Jordan Doe</h2>
+                            <h2 className="text-2xl font-bold text-gray-800 mb-2">Jordan Small</h2>
                             <p className="text-green-600 font-semibold mb-4">Computer Science Graduate</p>
                             <div className="space-y-2">
                                 <div className="inline-block px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm">
