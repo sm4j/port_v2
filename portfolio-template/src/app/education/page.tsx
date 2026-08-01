@@ -1,4 +1,9 @@
 import React from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Education | Jordan Small',
+};
 
 const EducationPage = () => {
     return (
